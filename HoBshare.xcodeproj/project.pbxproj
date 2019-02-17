@@ -14,6 +14,7 @@
 		B2B2A9AB2218996F0071AA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B2A9A92218996F0071AA1D /* LaunchScreen.storyboard */; };
 		B2B2A9B62218996F0071AA1D /* HoBshareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2A9B52218996F0071AA1D /* HoBshareTests.swift */; };
 		B2B2A9C12218996F0071AA1D /* HoBshareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B2A9C02218996F0071AA1D /* HoBshareUITests.swift */; };
+		B2B2A9D02218A24F0071AA1D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B2A9CF2218A24F0071AA1D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B2B2A9BC2218996F0071AA1D /* HoBshareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoBshareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B2A9C02218996F0071AA1D /* HoBshareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoBshareUITests.swift; sourceTree = "<group>"; };
 		B2B2A9C22218996F0071AA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B2A9CF2218A24F0071AA1D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B2A9D02218A24F0071AA1D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				B2B2A9B42218996F0071AA1D /* HoBshareTests */,
 				B2B2A9BF2218996F0071AA1D /* HoBshareUITests */,
 				B2B2A99E2218996D0071AA1D /* Products */,
+				B2B2A9CE2218A24F0071AA1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				B2B2A9C22218996F0071AA1D /* Info.plist */,
 			);
 			path = HoBshareUITests;
+			sourceTree = "<group>";
+		};
+		B2B2A9CE2218A24F0071AA1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2B2A9CF2218A24F0071AA1D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
